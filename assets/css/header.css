@@ -1,0 +1,41 @@
+/* header.css */
+#header {
+  position: relative;
+  background-image: url('../img/shopping1920x400.jpg'); /* Ruta a la imagen de fondo */
+  background-size: cover; /* La imagen cubrdee todo el header */
+  background-position: center;
+  height: 300px; /* Altura del header */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.header-content {
+  position: relative;
+  z-index: 2; /* Para asegurarnos de que el contenido esté sobre la imagen */
+  text-align: center;
+}
+
+#header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Sombra oscura para mejorar la legibilidad */
+  z-index: 1;
+}
+
+#header .logo {
+  height: 80px;
+  margin-bottom: 1em;
+  margin-right: 5em;
+}
+
+#header h1 {
+  font-size: 2em;
+  margin: 0;
+}

@@ -1,7 +1,7 @@
 # store
 Tienda   base para un e-commerce
 
-## Ejercicio de HTML para con propositos de comprensión
+## Ejercicio de HTML para con propósitos de comprensión
 
 ### Nombre: Latam Store
 ### Seccion: Vista de Producto
